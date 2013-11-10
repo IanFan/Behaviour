@@ -1,0 +1,39 @@
+# Exclude the build directory
+build/*
+
+# Exclude temp nibs and swap files
+*.swp
+*~.nib
+
+# Exclude OS X folder attributes
+.DS_Store
+
+# Exclude user-specific XCode 3 and 4 files
+*.pbxuser
+*.mode1
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.xcuserstate
+*.xcworkspace
+xcuserdata
+*/xcuserdata
+*/project.xcworkspace/xcuserdata
+DerivedData
+
+# Exclude Generated files
+*.o
+*.pyc
+*.hi
+
+# Exclude Python modules
+MANIFEST
+dist/
+
+build/*
+
+# Exclude Backup files
+\#*#
+.#*
